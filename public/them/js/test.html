@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+$(document).ready(function(){
+$("#owl-example").owlCarousel({
+items: 1,
+loop : true,
+nav : true,
+dots: true
+});
+});
+
+$(document).ready(function(){
+$("#sec-example").owlCarousel({
+items: 1,
+loop : true,
+nav : false,
+dots: true
+});
+});
+
+
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+items:4,
+loop:true,
+margin:10,
+autoplay:true,
+autoplayTimeout:1000,
+autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+owl.trigger('stop.owl.autoplay')
+})

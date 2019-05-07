@@ -1,0 +1,19 @@
+.fa-twitter:before{
+color:#59abdd;
+}
+
+
+}
+
+.fa-facebook-f:before{
+	color:325fa2;
+}
+
+.fa-youtube:before{
+	color:#fe0000;
+}
+
+
+.fa-google-plus:before{
+	color:#d34338;
+}

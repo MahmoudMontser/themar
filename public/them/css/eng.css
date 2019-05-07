@@ -1,0 +1,756 @@
+/* 166 of 1426 CSS properties converted by rtl.daskhat.ir
+ These properties should be override originals.
+ just load rtl css file after original css file.*/
+
+/* body {direction:rtl;} */
+
+body{
+    direction: ltr;
+}
+
+select{
+    background-position: right 10px center;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .pull-right{
+    float: left !important;
+}
+
+.pull-left{
+    float: right !important;
+}
+
+.head .owl-carousel{
+    direction: ltr;
+}
+
+.head .owl-carousel .carousel-caption{
+    left: 25%;
+    right: 25%;
+}
+
+.head .page-details ul li{
+    float: left;
+}
+
+.head .owl-carousel .carousel-caption h1::after{
+    left: 8%;
+    right: inherit;
+}
+
+.head .owl-carousel .carousel-caption h1::before{
+    right: 8%;
+    left: inherit;
+}
+
+.head .owl-carousel .owl-nav button.owl-prev{
+    left: 33.5%;
+    right: inherit;
+}
+
+.head .owl-carousel .owl-nav button.owl-prev::before{
+    left: 140%;
+}
+
+.head .owl-carousel .owl-nav button.owl-next{
+    right: 34%;
+    left: inherit;
+}
+
+.head .owl-carousel .owl-nav button.owl-next::before{
+    left: -240%;
+    right: inherit;
+}
+
+.owl-theme .owl-dots .owl-dot.active span::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: inherit;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.navbar-brand{
+    left: 120px;
+    right: inherit;
+}
+
+.head-nav .navbar-nav li{
+    float: left;
+    margin-right: 15px;
+    margin-left: inherit;
+}
+
+.head-nav .navbar-nav li form{
+    left: -747%;
+    right: inherit;
+}
+
+.head-nav .navbar-nav li.active a::after{
+    left: 0;
+    right: inherit;
+}
+
+.head-nav .navbar-nav li.active a::before{
+    left: 0;
+    right: inherit;
+}
+
+.head .social-icons{
+    right: 150px;
+    display: table;
+    left: inherit;
+}
+
+.head .social-icons ul li a::after{
+    left: -30px;
+    right: inherit;
+}
+
+.head .option-box .login-box{
+    float: left;
+}
+
+.head .option-box .login-box ul li{
+    border-left: 3px solid #ba8c2f;
+    border-right: 2px solid #ba8c2f;
+}
+
+.head .option-box .login-box ul li:last-child a{
+    padding-right: 25px;
+    padding-left: inherit;
+}
+
+.head .option-box .login-box ul li:last-child{
+    border-left: 3px solid #3a405a;
+    border-right: 2px solid #3a405a;
+}
+
+.head .option-box .login-box ul li a{
+    padding-left: 20px;
+    padding-right: inherit;
+}
+
+.head .option-box .login-box ul li:last-child:hover{
+    border-left: 3px solid #535663;
+    border-right: 2px solid #535663;
+}
+
+.head .option-box .gear-check{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.about-us{
+    padding: 75px 0 55px 0 ;
+}
+
+.about-us h1.main::after{
+    right: -115px;
+}
+
+.about-us h1.main::before{
+    right: -115px;
+    left: inherit;
+}
+
+.about-us ol li h1{
+    margin-left: 25px;
+    margin-right: inherit;
+}
+
+.about-us ol li p{
+    margin-left: 75px;
+    margin-right: inherit;
+}
+
+.about-us .house{
+    margin: 50px auto 0 auto ;
+}
+
+.about-us .house::after{
+    left: 10%;
+    right: inherit;
+}
+
+.buldings h1.main::after{
+    right: -115px;
+    left: inherit;
+}
+
+.buldings h1.main::before{
+    left: -115px;
+    right: inherit;
+}
+
+.buldings .second-owl-carousel{
+    direction: ltr;
+}
+
+.buldings .second-owl-carousel .item{
+    direction: ltr;
+}
+
+.buldings .second-owl-carousel .item .first .describtion h2{
+    margin: 0 0 13px 0 ;
+}
+
+.buldings .second-owl-carousel .item .first .describtion ul li{
+    margin-right: 35px;
+    margin-left: inherit;
+}
+
+.buldings .second-owl-carousel .item .first .describtion ul li i{
+    margin-right: 10px;
+    margin-left: inherit;
+}
+
+.contact-us .section-background{
+    left: 22%;
+    right: inherit;
+}
+
+.contact-us h1.main::after{
+    right: -115px;
+    left: inherit;
+}
+
+.contact-us h1.main::before{
+    left: -115px;
+    right: inherit;
+}
+
+.contact-us .form-group{
+    left: 105px;
+    right: inherit;
+}
+
+.contact-us .form-group input{
+    border-right: transparent !important;
+    border-left: transparent !important;
+    padding-right: 0;
+    padding-left: inherit;
+}
+
+.contact-us .form-group input:hover ,.contact-us .form-group input:active ,.contact-us .form-group input:focus{
+    border-right: transparent !important;
+    border-left: transparent !important;
+    padding-right: 0;
+    padding-left: inherit;
+}
+
+.contact-us .left .form-group textarea{
+    border-right: transparent !important;
+    border-left: transparent !important;
+    padding-right: 0;
+    padding-left: inherit;
+}
+
+.contact-us .left .form-group button{
+    margin: 30px auto 0 auto ;
+}
+
+.footer .partion ul.social li{
+    margin-right: 15px;
+    padding-left: inherit;
+}
+
+.footer .border-left{
+    border-right: 1px solid #4e4229;
+    border-left:inherit ;
+}
+
+.footer .partion h1.main::after{
+    left: 0;
+    right: inherit;
+}
+
+.footer .part2{
+    padding-left: 70px;
+    padding-right: inherit;
+}
+
+.footer .partion ul.menu li::before{
+    margin-right: 7px;
+    margin-left: inherit;
+}
+
+.footer .partion ul.contact li i{
+    margin-right: 15px;
+    margin-left: inherit;
+}
+
+.footer .partion ul.contact li span{
+    float: right;
+    margin-left: 15px;
+    margin-right: inherit;
+}
+
+.footer .bottom-footer .divider{
+    float: left;
+}
+
+.footer .bottom-footer a{
+    float: right;
+}
+
+.language-button h6{
+    float: left;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.language-button i{
+    float: right;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:0;
+    border-top-left-radius: 0;
+}
+
+.lang{
+    right: 150px;
+    left: inherit;
+}
+
+.small-search{
+    left: 15px;
+    right: inherit;
+}
+
+.small-form{
+
+}
+
+.small-form .form-group{
+    right: 50%;
+    left: inherit;
+}
+
+.small-form .form-group .close{
+    right: 50%;
+    left: inherit;
+}
+
+.imglist{
+    padding-right: 20px;
+    padding-left: inherit;
+}
+
+.imglist a{
+    border-right: 5px solid #2a4712;
+    margin-left: 40px;
+    margin-right: inherit;
+    border-left:none ;
+}
+
+.imglist a:hover{
+    border-right: 5px solid #a02d2d;
+    border-left: none;
+}
+
+.imglist i{
+    right: 41%;
+    left: inherit;
+}
+
+.Slideshow .prev, .Slideshow .next{
+    border-radius: 3px 0 0 3px;
+}
+
+.Slideshow .next{
+    right: 16px;
+    border-radius: 0 3px 3px 0;
+    left: inherit;
+}
+
+.Slideshow .prev{
+    left: 10px;
+    right: inherit;
+}
+
+.Slideshow .column{
+    float: right;
+}
+
+.Slideshow .padd-right{
+    padding-left: 10px;
+padding-right: inherit;
+}
+
+.Slideshow .describtion h2{
+    margin: 0 0 25px 0 ;
+}
+
+.Slideshow .describtion ul li{
+    margin-right: 15%;
+margin-left: inherit;
+}
+
+.Slideshow .describtion ul li i{
+    margin-right: 10px;
+margin-left: inherit;
+}
+
+.about-us .goal h1 span{
+    margin-right: 10px;
+    margin-left: inherit;
+}
+
+.sign-in .signn .banks .account .visa{
+    left: 30%;
+    right: inherit;
+}
+
+.sign-in .signn .banks .account .divider .content span{
+    margin-left: 5px;
+    margin-right: inherit;
+}
+
+.sign-in .signn .monthes .month{
+    float: left;
+    margin-right: 25px;
+    margin-left: inherit;
+}
+
+.sign-in .signn .owner-count{
+    float: right;
+}
+
+.sign-in .signn .table .sigle-item .right-item h6{
+    margin-left: 30px;
+    margin-right:inherit ;
+}
+
+.sign-in .signn .table .sigle-item .left-item{
+    float: right;
+}
+
+.sign-in .signn .sign{
+border-right:inherit ;
+    border-left: 1px solid #e1e1e1;
+}
+
+.sign-in .signn .sign ul::after{
+    left: 45px;
+    right: inherit;
+}
+
+.sign-in .signn .sign ul li{
+    float: left;
+    margin-right: 175px;
+    margin-left: 28px;
+}
+
+.sign-in .signn .sign ul li:last-child{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.sign-in .signn .sign ul li::after{
+    left: 40%;
+    right: inherit;
+}
+
+.sign-in .signn .sign .form-group input{
+    border-right: transparent !important;
+    border-left: transparent !important;
+    padding-right: 0;
+padding-left: inherit;
+}
+
+.sign-in .signn .sign  .form-group input:hover ,.sign-in .signn .sign  .form-group input:active ,.sign-in .signn .sign  .form-group input:focus{
+    border-right: transparent !important;
+    border-left: transparent !important;
+    padding-right: 0;
+padding-left: inherit;
+}
+
+.sign-in .signn .sign .form-group .not-avilable span a{
+    margin-left: 5px;
+    margin-right: inherit;
+}
+
+.sign-in .signn .sign .texterea i{
+    margin-right: 10px;
+
+}
+.head .page-details ul li i {
+    transform: rotateY(180deg);
+}
+
+.contact-us .left .left-img img {
+    width: 100%;
+    transform: rotateY(180deg);
+}
+@media(min-width:1200px) and (max-width: 1300px){
+    .head .owl-carousel .owl-nav button.owl-prev::before{
+        right: -160%;
+        left: inherit;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-next::before{
+        left: -200%;
+        right: inherit;
+    }
+
+}
+
+@media(min-width: 991px) and (max-width: 1200px){
+    .lang{
+        right: 20px;
+        left: inherit;
+    }
+
+    .head .social-icons{
+        right: 50px;
+        left: inherit;
+    }
+
+    .head-nav .navbar-nav{
+        float: right;
+        margin-right: 130px;
+        margin-left: inherit;
+    }
+
+    .head .owl-carousel .carousel-caption h1::before{
+        right: 8%;
+        left: inherit;
+    }
+
+    .head .owl-carousel .carousel-caption h1::after{
+        left: 8%;
+        right: inherit;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-prev::before{
+        right: -79%;
+        left: inherit;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-next::before{
+        left: -95%;
+        right: inherit;
+    }
+
+    .sign-in .signn .sign ul li{
+        margin-right: 100px;
+    margin-left: 34px;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .sign-in .signn .table .sigle-item .right-item h6{
+        margin: 15px auto 5px auto ;
+    }
+
+    .head-nav .navbar-nav{
+        float: right;
+    }
+
+    .navbar > .container-fluid .navbar-brand{
+        margin-left: -100px;
+        margin-right: inherit;
+    }
+
+    .head .social-icons{
+        right: 50px;
+        left: inherit;
+    }
+
+    .about-us ol li{
+        padding-left: 30px;
+        padding-right: inherit;
+    }
+
+    .footer .partion ul.menu{
+        margin: 20px auto 0 auto ;
+    }
+
+    .footer .partion h1.main::after{
+        left: -38px;
+        right: inherit;
+    }
+
+    .footer .partion ul.contact{
+        margin: 40px auto 0 auto ;
+    }
+
+    .footer .bottom-footer .divider2{
+        float: right;
+    }
+
+    .sign-in .signn .sign ul li{
+ margin-left:30px;
+        margin-right: 198px;
+    }
+
+}
+
+@media(max-width: 768px){
+    .sign-in .signn .sign ul::after {
+        right: 0;
+        width: 377px;
+        left: 11px;
+    }
+
+        .navbar-default .navbar-toggle {
+            margin-top: 27px;
+            margin-left: 10px;
+        }
+    .sign-in .signn .table .sigle-item .right-item h6{
+        margin: 15px auto 5px auto ;
+    }
+
+    .about-us ol li{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer .partion ul.menu{
+        margin: 20px auto 0 auto ;
+    }
+
+    .footer .partion h1.main::after{
+        left: -38px;
+        right: inherit;
+    }
+
+    .footer .bottom-footer .divider2{
+        float: right;
+    }
+
+    .head-nav .navbar-nav{
+        margin-left: -10px;
+        margin-right: inherit;
+    }
+
+    .head-nav .navbar-nav li {
+        float: left;
+        margin-right: 15px;
+        margin-left: 4px;
+    }
+    .about-us ol li h1 {
+        margin-left: 20px;
+        margin-right: inherit;
+    }
+
+    .navbar-brand{
+        right: 55px;
+        left: inherit;
+    }
+
+    .lang{
+        left: 90px;
+        right: inherit;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-prev{
+        left: 125px;
+        right: inherit;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-next{
+        right: 125px;
+        left: inherit;
+    }
+
+    .sign-in .signn .sign ul li{
+        margin-right: 110px;
+        margin-left: inherit;
+    }
+
+}
+
+@media (max-width: 560px){
+
+    .sign-in .signn .sign ul::after {
+        right: 0;
+        width: 205px;
+        left: 22px;
+    }
+    .about-us ol li h1 a {
+
+        font-size: 22px;
+
+    }
+
+    .sign-in .signn .sign ul li {
+        margin-right: 25px;
+margin-left: 27px;
+    }
+
+    .sign-in .signn .sign ul li:first-child {
+       margin-left: 0;
+    }
+    .about-us ol li h1 {
+        margin-left: 20px;
+        margin-right: inherit;
+    }
+    .sign-in .signn .table .sigle-item .right-item h6{
+        margin: 15px auto 5px auto ;
+    }
+
+    .about-us ol li{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .head .owl-carousel .carousel-caption{
+        right: 0;
+        left: 0;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-prev{
+        left: 35px;
+        right: inherit;
+    }
+
+    .head .owl-carousel .owl-nav button.owl-next{
+        right: 35px;
+        left: inherit;
+    }
+
+    .navbar-brand{
+        right: 10px;
+        left: inherit;
+    }
+
+    .lang{
+        right: 50px;
+        left: inherit;
+    }
+
+    .contact-us .form-group{
+        left: 61px;
+        right: inherit;
+    }
+
+    .Slideshow .next{
+        right: 9px;
+        left: inherit;
+    }
+
+    .Slideshow .describtion ul li{
+        margin-right: 10%;
+        margin-left: inherit;
+    }
+
+
+
+}
+
+
+.show-s{
+    display: block!important;}
+
